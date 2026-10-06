@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "settings"
+    label: "Business Card Settings"
+    files:
+      - label: "Main Information"
+        name: "main"
+        file: "data/site.json"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Position", name: "position", widget: "string"}
+          - {label: "Company", name: "company", widget: "string"}
+          - {label: "Business Type", name: "business", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "WhatsApp Number", name: "whatsapp", widget: "string", hint: "Country code, no + or spaces, e.g. 60173307258"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Company Address", name: "address", widget: "text"}
+          - {label: "Logo", name: "logo", widget: "file", required: false}
+          - {label: "Product Catalogue", name: "catalogue", widget: "file", required: false}
+          - label: "Product Categories"
+            name: "categories"
+            widget: "list"
+            field: {label: "Category", name: "category", widget: "string"}
+          - {label: "Quotation Section Title", name: "quote_title", widget: "string"}
+          - {label: "Quotation Section Text", name: "quote_text", widget: "text"}
+          - {label: "Quotation Button Text", name: "quote_button", widget: "string"}
