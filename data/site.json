@@ -1,0 +1,16 @@
+{
+  "name":"KIM WANG",
+  "position":"Purchasing Supervisor",
+  "company":"KOLEKSI ERA BARU SDN. BHD.",
+  "business":"Household & Kitchenware Supplier",
+  "phone":"017-330 7258",
+  "whatsapp":"60173307258",
+  "email":"kerabaru@hotmail.com",
+  "address":"NO 5, JALAN P2/6A,\nTIARA INDUSTRI PARK,\nBANDAR TEKNOLOGI KAJANG,\n43500 SEMENYIH,\nSELANGOR, MALAYSIA",
+  "logo":"./logo.png",
+  "catalogue":"./catalogue-2026.pdf",
+  "categories":["Cleaning Products","Kitchenware","Food Containers","Household Supplies"],
+  "quote_title":"Looking for products or a quotation?",
+  "quote_text":"Send your product enquiry directly to KIM WANG via WhatsApp.",
+  "quote_button":"REQUEST QUOTATION"
+}
